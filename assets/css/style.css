@@ -1109,3 +1109,9 @@ ol .children {
 }
 
 body, p, h1, h2, h3, h4, h5, h6, .site-title, .entry-title { font-family: Arial, Helvetica, sans-serif !important; }
+
+/* Disable obsolete WordPress theme preloader */
+#preloader, .preloader, .loader, .loading, .page-loader, .site-loader, #loading, .loading-overlay { display: none !important; visibility: hidden !important; }
+body { overflow: auto !important; }
+
+#preload { display: none !important; } #page { display: block !important; visibility: visible !important; opacity: 1 !important; }
